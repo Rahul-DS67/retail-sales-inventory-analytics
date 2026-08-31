@@ -59,15 +59,15 @@ The project aims to:
 
 ### Executive Overview
 
-![retail-sales-inventory-analytics](screenshots/Executive Summary.png)
+![Executive Summary](screenshots/executive-summary.png)
 
 ### Product & Inventory Performance
 
 ![Product & Inventory Performance](screenshots/product-inventory-performance.png)
 
-### Sales Drivers & Demand Planning
+### Demand Drivers 
 
-![Sales Drivers & Demand Planning](screenshots/sales-drivers-demand-planning.png)
+![Demand Drivers](screenshots/demand-drivers.png)
 
 ---
 
@@ -215,7 +215,7 @@ Focuses on product performance and inventory availability.
 
 ---
 
-## 3️⃣ Sales Drivers & Demand Planning
+## 3️⃣ Demand Drivers
 
 Examines the factors influencing demand and sales performance.
 
@@ -229,8 +229,6 @@ Examines the factors influencing demand and sales performance.
 * Demand Variability
 
 ---
-
-
 
 # 💡 Key Business Insights
 
@@ -311,7 +309,7 @@ retail-sales-inventory-analytics/
 ├── screenshots/
 │   ├── executive-overview.png
 │   ├── product-inventory-performance.png
-│   └── sales-drivers-demand-planning.png
+│   └── demand-drivers.png
 │
 ├── data/
 │   └── README.md
@@ -319,8 +317,6 @@ retail-sales-inventory-analytics/
 └── documentation/
     └── project-documentation.pdf
 ```
-
----
 
 # 🚀 Future Enhancements
 
