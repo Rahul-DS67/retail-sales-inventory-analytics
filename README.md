@@ -59,7 +59,7 @@ The project aims to:
 
 ### Executive Overview
 
-![Executive Overview](screenshots/executive-overview.png)
+![retail-sales-inventory-analytics](screenshots/Executive Summary.png)
 
 ### Product & Inventory Performance
 
