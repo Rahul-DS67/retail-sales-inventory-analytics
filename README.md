@@ -5,7 +5,7 @@ An end-to-end retail analytics project built to analyze **sales performance, inv
 The project transforms raw retail data into an interactive **business intelligence dashboard** designed to help decision-makers monitor KPIs, identify performance gaps, understand sales drivers, and improve inventory planning.
 
 ---
-# 1. Executive Summary
+# Executive Summary
 
 Retail organizations must continuously balance sales growth with efficient inventory management while responding to shifting customer demand, promotions, holidays, and competitive pricing. This project builds an end-to-end retail analytics solution — from raw data exploration and preparation to an interactive Power BI dashboard — providing decision-makers with a single view of sales, inventory, and demand performance.
 
@@ -146,7 +146,6 @@ The dataset contains weekly retail sales and inventory observations covering **2
 | **Power BI**       | Dashboard development and data visualization |
 | **DAX**            | KPI and business metric development          |
 | **Power Query**    | Data transformation and preparation          |
-| **SQL / MySQL**    | Data querying and analytical analysis        |
 | **Python**         | Exploratory data analysis                    |
 | **Pandas & NumPy** | Data manipulation and analysis               |
 | **Matplotlib**     | Exploratory visualizations                   |
@@ -241,11 +240,11 @@ Focuses on product performance and inventory availability.
 ### Analysis
 
 * Top & Bottom Products
-* Category Performance
+* Weekly Demand by Category 
 * Inventory Availability
 * Inventory Utilization
 * Stockout Monitoring
-* Product/Category Risk
+* Store-Inventory Summary
 
 ---
 
@@ -259,8 +258,7 @@ Examines the factors influencing demand and sales performance.
 * Promotion Lift by Category
 * Holiday Impact
 * Competitor Pricing
-* Forecast Performance
-* Demand Variability
+* Forecast Comparison
 
 ---
 
