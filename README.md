@@ -5,6 +5,40 @@ An end-to-end retail analytics project built to analyze **sales performance, inv
 The project transforms raw retail data into an interactive **business intelligence dashboard** designed to help decision-makers monitor KPIs, identify performance gaps, understand sales drivers, and improve inventory planning.
 
 ---
+# 1. Executive Summary
+
+Retail organizations must continuously balance sales growth with efficient inventory management while responding to shifting customer demand, promotions, holidays, and competitive pricing. This project builds an end-to-end retail analytics solution — from raw data exploration and preparation to an interactive Power BI dashboard — providing decision-makers with a single view of sales, inventory, and demand performance.
+
+The analysis covers **26,250 weekly sales and inventory records** across **10 stores, 5 regions, and 25 products**, spanning **105 weekly periods across 2022–2023**. The dataset includes sales, inventory, pricing, promotions, holidays, competitor pricing, and demand forecasts.
+
+| KPI                   |     Result |
+| --------------------- | ---------: |
+| **Total Revenue**     | **$82.1M** |
+| **Units Sold**        |  **1.84M** |
+| **Stockout Rate**     |  **13.6%** |
+| **Forecast Accuracy** |  **62.8%** |
+
+## Headline Findings
+
+**1. Category Mix Is Highly Skewed**
+Electronics generated **45.6% of revenue from only 6.1% of units sold**, while Grocery contributed **50.1% of unit volume but only 9.2% of revenue**. This highlights the need for different pricing, merchandising, and inventory strategies by category.
+
+**2. East Leads Regional Performance**
+The **East region generated 23.9% of total revenue**, making it the strongest-performing region. Its sales and operating patterns provide a useful benchmark for investigating opportunities in lower-performing regions.
+
+**3. Promotions Drive Demand, but Selectively**
+Promotions increased average unit sales by **39.5%**, while holiday periods increased sales by **34.0%**. Grocery showed a **39.9% promotional lift**, while Electronics showed a **48.0% holiday response**, supporting targeted rather than uniform promotional strategies.
+
+**4. Inventory Risk Is Concentrated**
+The overall stockout rate was **13.6%**, with stockout exposure rising to **32.1% during promotional periods**. The highest exposure was concentrated in the **West and South regions and Store_7 and Store_8**, highlighting specific replenishment priorities.
+
+**5. Forecast Performance Weakens During High-Demand Periods**
+Overall forecast accuracy was **62.8%**, with forecast error increasing during promotions and holidays. These periods are particularly important for inventory planning because demand volatility and stockout risk are higher.
+
+**6. Competitive Pricing Shows a Potential Sweet Spot**
+Products priced within approximately **±5% of competitor prices achieved the highest average sales volume**, suggesting that maintaining competitive price positioning may be more effective than relying on aggressive discounting.
+
+---
 
 ## 📌 Project Overview
 
@@ -230,22 +264,6 @@ Examines the factors influencing demand and sales performance.
 
 ---
 
-# 💡 Key Business Insights
-
-The analysis identified several important business patterns:
-
-* Sales performance showed recurring seasonal demand patterns across the analysis period.
-* Promotional periods were associated with increased demand and required stronger inventory readiness.
-* Holiday periods produced noticeable changes in sales demand.
-* Inventory utilization varied across stores and regions, creating opportunities for better inventory allocation.
-* Stockout risk was concentrated in specific stores and products rather than being evenly distributed.
-* Competitor pricing provided an important factor for evaluating product pricing and sales performance.
-* Forecast performance became more challenging during periods of higher demand variability, particularly around promotional and holiday periods.
-
-> **Note:** Final numerical insights should be added here after validating the dashboard results.
-
----
-
 # 📈 Business Recommendations
 
 Based on the analysis:
@@ -304,7 +322,7 @@ retail-sales-inventory-analytics/
 ├── README.md
 │
 ├── dashboard/
-│   └── Retail_Sales_Inventory_Analytics.pbix
+│   └── Retail_Sales_Inventory_Analytics.pdf
 │
 ├── screenshots/
 │   ├── executive-overview.png
@@ -312,10 +330,10 @@ retail-sales-inventory-analytics/
 │   └── demand-drivers.png
 │
 ├── data/
-│   └── README.md
+│   └── data-dictionary.md
 │
 └── documentation/
-    └── project-documentation.pdf
+    └── Retail_Sales_Inventory_Analytics_Case_Study.pdf
 ```
 
 # 🚀 Future Enhancements
